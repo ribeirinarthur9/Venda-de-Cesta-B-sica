@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: #fbfbee;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+.barra {
+    background-color: #040a9e;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: x-large;
+}
+.sobre {
+    padding: 40px;
+    font-size: medium;
+    color: #000000;
+}
+
+.sobre p {
+    margin: 0 auto;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+h3 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cesta {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.cesta img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.c {
+    color: #000000;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    margin-bottom: 15px;
+}
+
+.footer-content h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
